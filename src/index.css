@@ -636,9 +636,3 @@ table a {
 .greyish{
   border-bottom: 1.5px dashed grey;
 }
-
-@media screen and (max-width: 600px){
-  td{
-    font-size: var(--fs-100);
-  }
-}

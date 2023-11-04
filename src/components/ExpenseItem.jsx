@@ -34,7 +34,7 @@ const ExpenseItem = ({expense, showWallet}) => {
                 type="submit"
                 className="btn btn--warning"
                 aria-label={`Delete ${expense.name} expense`}>
-                    <TrashIcon width={isSmallScreen ? 10: 20}/>
+                    <TrashIcon width={isSmallScreen ? 16: 20}/>
                 </button>
             </fethcer.Form>
         </td>
