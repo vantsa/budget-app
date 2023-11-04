@@ -18,7 +18,6 @@ const ExpenseItem = ({expense, showWallet}) => {
 
   return (
     <>
-        <td className={expense.type === "Expense" ? "red-background" : "green-background"}>{expense.type}</td>
         <td className={expense.type === "Expense" ? "red-background" : "green-background"}>{expense.name}</td>
         <td className={expense.type === "Expense" ? "red-background" : "green-background"}>{formatCurrency(expense.amount)}</td>
         <td className={expense.type === "Expense" ? "red-background" : "green-background"}>{formatDateToLocalString(expense.createdAt)}</td>
